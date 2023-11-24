@@ -30,7 +30,7 @@ while True:
     if option == "B":
         print('Informe nos as seguintes informações para que seja possível estimar o tempo que você deverá ter em cada trecho da corrida')
         km = float(input("Distância(Km): "))
-        pace = float(input("Pace(Ritmo min/Km): "))
+        pace = float(input("Pace(min/Km): "))
         times = t.getTimes(km, pace)
         for idx, x in enumerate(times):
             print(f'{idx + 1}- {x}')
