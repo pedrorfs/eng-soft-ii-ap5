@@ -33,4 +33,4 @@ while True:
         pace = float(input("Pace(Ritmo min/Km): "))
         times = t.getTimes(km, pace)
         for idx, x in enumerate(times):
-            print(f'{idx + 1}: {x}')
+            print(f'{idx + 1}- {x}')
