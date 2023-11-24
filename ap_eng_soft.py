@@ -7,7 +7,7 @@ name = input("Olá, qual é o seu nome? ")
 print(f"{name}, aqui está o menu com algumas opções:")
 option = ""
 while True:
-    print("------------------")
+    print("--------------------------------")
     print(f"A - Calcular IMC")
     print(f"B - Treinamento de Corrida")
     print(f"C - Encerrar programa")
